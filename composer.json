@@ -1,0 +1,15 @@
+{
+  "name": "henrik/auth",
+  "description": "Auth",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "henrik/session": "^1"
+  },
+  "autoload": {
+    "psr-4": {
+      "henrik\\auth\\": "src/"
+    }
+  }
+}
